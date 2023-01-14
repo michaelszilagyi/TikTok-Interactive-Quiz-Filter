@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "bc37b028-c4ec-c0c2-a9fb-ef67383a7248",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "RESULTLEFT",
+    "objGuid": "Guid(7225489824423136551, 9385457716895077796)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(7657444047114440521, 1784800283872328347)"
+  }
+]

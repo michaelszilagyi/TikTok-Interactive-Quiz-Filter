@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "78dc9fa8-f288-6621-cc4d-ea2e633c156c",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "scoretext",
+    "objGuid": "Guid(12414612451049781318, 1182391949663228830)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(1027302285287217788, 8768348709724963716)"
+  }
+]
