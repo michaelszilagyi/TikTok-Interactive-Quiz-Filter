@@ -1,0 +1,33 @@
+%YAML 1.1
+--- !Material &1
+name: sec
+guid: {a: 7443121893261220710, b: 3635552994543219597}
+xshader: {localId: 1, path: d710d9d8-db18-3be9-a9ad-dbe7be4168d1--d710d9d8-db18-3be9-a9ad-dbe7be4168d1.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 6291325482759036387, b: 13577181954404180116}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001e--00000000-0000-0000-0000-00000000001e.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""

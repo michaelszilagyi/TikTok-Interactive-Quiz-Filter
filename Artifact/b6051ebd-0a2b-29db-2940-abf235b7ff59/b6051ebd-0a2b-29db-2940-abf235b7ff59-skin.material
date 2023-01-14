@@ -1,0 +1,34 @@
+%YAML 1.1
+--- !Material &1
+name: RESULTRIGHT
+guid: {a: 11692567875185684819, b: 7679698437439324835}
+xshader: {localId: 1, path: b6051ebd-0a2b-29db-2940-abf235b7ff59--b6051ebd-0a2b-29db-2940-abf235b7ff59.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 8091615494862710433, b: 4982769346267554962}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
