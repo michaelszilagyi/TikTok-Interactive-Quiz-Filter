@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "d8af9b77-be1b-0a20-8470-e9ac611f5840",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "1.6",
+    "objGuid": "Guid(670162737300887355, 835634745647605149)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 2,
+    "maxResolution": 256,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]
