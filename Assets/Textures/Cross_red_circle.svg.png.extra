@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "d8ce0310-4f48-be53-df08-fea9656f86fd",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Cross_red_circle.svg",
+    "objGuid": "Guid(11551090217818498962, 1566202362733967488)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "02fbf577-5419-8359-d7cd-ed7e223a459a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "score-logo-png-transparent",
+    "objGuid": "Guid(12774306027703653655, 1536883658024839326)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

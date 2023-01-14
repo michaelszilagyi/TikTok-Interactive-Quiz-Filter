@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "4083486a-d0ec-e5a0-1820-2480cab52294",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "png-transparent-download-save-save-on-computer-upload-file-guardar-audio-controls-ui-icons-free-icon",
+    "objGuid": "Guid(2829102397706144810, 8227307788031302569)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

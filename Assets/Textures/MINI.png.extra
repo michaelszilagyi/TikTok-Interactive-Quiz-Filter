@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "8d90c301-f1ee-a200-4872-4ac8bc7ff8f0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MINI",
+    "objGuid": "Guid(5209216702119877403, 17951685321325919658)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

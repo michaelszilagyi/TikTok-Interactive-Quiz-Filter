@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "3b8e5ac3-b5d8-9cbf-d96e-7df511843bec",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Question",
+    "objGuid": "Guid(8595031847709858642, 14046789447994869648)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

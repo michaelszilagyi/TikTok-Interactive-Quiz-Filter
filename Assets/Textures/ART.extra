@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "e1329726-57c8-86fd-c390-89423f1b1369",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "ART",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
