@@ -1,0 +1,35 @@
+%YAML 1.1
+--- !Material &1
+name: Left Ear Face Inset
+guid: {a: 9818259732870158477, b: 13740270407817674158}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000a1--00000000-0000-0000-0000-0000000000a1.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 237364405018372221, b: 15268737635886434447}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 1, y: 1, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TextureRescale: {x: 1, y: 1}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000023--00000000-0000-0000-0000-000000000023.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""

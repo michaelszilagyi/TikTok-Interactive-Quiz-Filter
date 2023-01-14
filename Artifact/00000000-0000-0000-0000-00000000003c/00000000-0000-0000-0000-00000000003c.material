@@ -1,0 +1,27 @@
+%YAML 1.1
+--- !Material &1
+name: FaceStretch
+guid: {a: 5568928314054523806, b: 10699215426460820875}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-00000000003c--00000000-0000-0000-0000-00000000003c.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 9387727218318813706, b: 1826157299008322982}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""

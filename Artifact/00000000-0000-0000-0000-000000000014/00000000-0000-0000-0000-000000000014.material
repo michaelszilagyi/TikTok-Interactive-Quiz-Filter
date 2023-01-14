@@ -1,0 +1,34 @@
+%YAML 1.1
+--- !Material &1
+name: Mouth Face Inset
+guid: {a: 13569011352270205987, b: 2907862181344580779}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000014--00000000-0000-0000-0000-000000000014.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 14071458112144743222, b: 2213247031999143812}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 1, y: 1, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TextureRescale: {x: 1, y: 1}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000023--00000000-0000-0000-0000-000000000023.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
