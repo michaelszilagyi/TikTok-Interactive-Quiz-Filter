@@ -1,0 +1,33 @@
+%YAML 1.1
+--- !Material &1
+name: scoretext
+guid: {a: 12414612451049781318, b: 1182391949663228830}
+xshader: {localId: 1, path: 78dc9fa8-f288-6621-cc4d-ea2e633c156c--78dc9fa8-f288-6621-cc4d-ea2e633c156c.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5208584871589524088, b: 2735466064254436267}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001e--00000000-0000-0000-0000-00000000001e.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
