@@ -1,0 +1,43 @@
+{
+	"name": "Random",
+	"id": "3e624cb6-d42e-bc92-4c4c-055462714321",
+	"inputs": [
+		{
+			"name": "Min",
+			"type": "Double",
+			"default_value": "0",
+			"item_type": "",
+			"description": "The minimum value (included) of the generated random number; if the minimum value is larger than maximum value, the minimum value becomes the maximum value",
+			"displayType": "Number"
+		},
+		{
+			"name": "Max",
+			"type": "Double",
+			"default_value": "1",
+			"item_type": "",
+			"description": "The maximum value (not included) of the generated random number; if the maximum value is smaller than minimum value, the maximum value becomes the minimum value",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"type": "Double",
+			"item_type": "",
+			"description": "The random number generated between Min and Max",
+			"displayType": "Number"
+		}
+	],
+	"lua": "CGRandom.lua",
+	"js": "CGRandom.js",
+	"version": "1.0.2",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGRandom",
+	"category": "Math",
+	"description": "Generate a random number within a certain range.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	]
+}

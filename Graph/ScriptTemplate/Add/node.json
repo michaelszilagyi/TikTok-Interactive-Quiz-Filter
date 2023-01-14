@@ -1,0 +1,56 @@
+{
+	"name": "Add",
+	"id": "a06db1d5-3357-d608-25db-415522997904",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The first value to be added",
+			"displayType": "Number"
+		},
+		{
+			"name": "B",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The second value to be added",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "A+B",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The sum of the two input values",
+			"displayType": "Number"
+		}
+	],
+	"js": "CGAdd.js",
+	"version": "1.0.2",
+	"amazingVersion": "10.40.0",
+	"category": "Math",
+	"description": "Calculate the sum of two inputs. You can click \"+\" to add more inputs. Supported types: Number, Vec2, Vec3, and Vec4.",
+	"supportedValueTypes": [
+		"Double",
+		"Int",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f"
+	],
+	"addableInput": {
+		"index": 1,
+		"baseName": "",
+		"increaseStartIndex": "C"
+	},
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	]
+}

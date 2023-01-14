@@ -1,0 +1,38 @@
+{
+	"name": "Update",
+	"id": "76dd06cb-6f7a-60eb-e2fa-c9b10a0c78fc",
+	"copyEnable": true,
+	"groupEnable": true,
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Delta Time",
+			"type": "Double",
+			"item_type": "",
+			"description": "The number of seconds elapsed since last frame",
+			"displayType": "Number"
+		}
+	],
+	"js": "CGOnUpdate.js",
+	"lua": "CGOnUpdate.lua",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGOnUpdate",
+	"category": "Event",
+	"subCategory": "Lifecycle",
+	"description": "Execute the next node in every frame.",
+	"nodeEvent": "onUpdate",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Update"
+}

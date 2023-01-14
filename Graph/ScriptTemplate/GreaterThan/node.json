@@ -1,0 +1,50 @@
+{
+	"name": "Greater Than",
+	"id": "713b60d7-effd-c58f-392e-477f6f35514f",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Int",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The first input to compare",
+			"displayType": "Number"
+		},
+		{
+			"name": "B",
+			"type": "Int",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The second value to compare",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"type": "Bool",
+			"item_type": "",
+			"description": "If A is greater than B this value is true. Otherwise, this value is false.",
+			"displayType": "Boolean"
+		}
+	],
+	"js": "CGGreaterThan.js",
+	"lua": "CGGreaterThan.lua",
+	"version": "1.1.0",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGGreaterThan",
+	"category": "Logic",
+	"description": "Compare two inputs and check if the first input is greater than the second input.",
+	"supportedValueTypes": [
+		"Int",
+		"Double"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Greater-Than"
+}

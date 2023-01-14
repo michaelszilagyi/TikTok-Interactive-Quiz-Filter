@@ -1,0 +1,124 @@
+{
+	"name": "Split",
+	"id": "ab48e932-45f8-d528-500e-e052b59df6cf",
+	"description": "Unpack a vector or color data into separate output values. The number of outputs depends on the selected data type. Supported types: Vec2, Vec3, Vec4, and Color.",
+	"outputChangeFollowInput": [
+		{
+			"inputKey": "Vector2f",
+			"outputNames": [
+				"X",
+				"Y"
+			],
+			"outputTypes": [
+				"Double",
+				"Double"
+			],
+			"outputDescriptions": [
+				"unpacked numbers",
+				"unpacked numbers"
+			]
+		},
+		{
+			"inputKey": "Vector3f",
+			"outputNames": [
+				"X",
+				"Y",
+				"Z"
+			],
+			"outputTypes": [
+				"Double",
+				"Double",
+				"Double"
+			],
+			"outputDescriptions": [
+				"unpacked numbers",
+				"unpacked numbers",
+				"unpacked numbers"
+			]
+		},
+		{
+			"inputKey": "Vector4f",
+			"outputNames": [
+				"X",
+				"Y",
+				"Z",
+				"W"
+			],
+			"outputTypes": [
+				"Double",
+				"Double",
+				"Double",
+				"Double"
+			],
+			"outputDescriptions": [
+				"unpacked numbers",
+				"unpacked numbers",
+				"unpacked numbers",
+				"unpacked numbers"
+			]
+		},
+		{
+			"inputKey": "Color",
+			"outputNames": [
+				"R",
+				"G",
+				"B",
+				"A"
+			],
+			"outputTypes": [
+				"Double",
+				"Double",
+				"Double",
+				"Double"
+			],
+			"outputDescriptions": [
+				"unpacked numbers",
+				"unpacked numbers",
+				"unpacked numbers",
+				"unpacked numbers"
+			]
+		}
+	],
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Vector2f",
+			"description": "The input value to unpack.",
+			"dynamic": true,
+			"default_value": "0",
+			"item_type": "",
+			"displayType": "Vec2"
+		}
+	],
+	"outputs": [
+		{
+			"name": "X",
+			"type": "Double",
+			"item_type": "",
+			"description": "split numbers"
+		},
+		{
+			"name": "Y",
+			"type": "Double",
+			"item_type": "",
+			"description": "split numbers"
+		}
+	],
+	"js": "CGUnpackNode.js",
+	"lua": "CGUnpackNode.lua",
+	"luaFuncName": "CGUnpackNode",
+	"category": "Utility",
+	"supportedValueTypes": [
+		"Vector2f",
+		"Vector3f",
+		"Vector4f",
+		"Color"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"version": "1.1.0",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Split"
+}

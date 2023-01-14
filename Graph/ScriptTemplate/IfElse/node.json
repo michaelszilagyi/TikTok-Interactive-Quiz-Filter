@@ -1,0 +1,52 @@
+{
+	"name": "If",
+	"id": "7eaad5a9-8153-652d-56be-bc67929c2336",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Condition",
+			"type": "Bool",
+			"item_type": "",
+			"default_value": "1",
+			"description": "A boolean value that determines which output execution to be taken. Select it to pass the true value only.",
+			"displayType": "Boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "True",
+			"type": "Pulse",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Execute the next node if condition is true",
+			"displayType": "Exec"
+		},
+		{
+			"name": "False",
+			"type": "Pulse",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Execute the next node if condition is false",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGIfElse.js",
+	"lua": "CGIfElse.lua",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGIfElse",
+	"category": "Control",
+	"description": "Take different executions based on conditions.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Control/If"
+}

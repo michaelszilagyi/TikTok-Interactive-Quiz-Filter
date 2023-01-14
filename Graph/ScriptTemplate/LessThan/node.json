@@ -1,0 +1,51 @@
+{
+	"name": "Less Than",
+	"id": "c533f008-3b86-c5ab-5c02-39a54e7bf26d",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Int",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The first input to compare",
+			"displayType": "Number"
+		},
+		{
+			"name": "B",
+			"type": "Int",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The second value to compare",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"type": "Bool",
+			"item_type": "",
+			"dynamic": false,
+			"description": "If A is less than B, this value is true. Otherwise, this value is false.",
+			"displayType": "Boolean"
+		}
+	],
+	"js": "CGLessThan.js",
+	"lua": "CGLessThan.lua",
+	"version": "1.1.0",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGLessThan",
+	"category": "Logic",
+	"description": "Compare two inputs and check if the first input is less than the second input.",
+	"supportedValueTypes": [
+		"Int",
+		"Double"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Less-Than"
+}

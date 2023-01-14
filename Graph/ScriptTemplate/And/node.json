@@ -1,0 +1,44 @@
+{
+	"name": "And",
+	"id": "75ac8ecf-f20c-46ae-822b-dd184942fb4e",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Bool",
+			"default_value": "0",
+			"item_type": "",
+			"description": "The first input value",
+			"displayType": "Boolean"
+		},
+		{
+			"name": "B",
+			"type": "Bool",
+			"default_value": "0",
+			"item_type": "",
+			"description": "The second input value",
+			"displayType": "Boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "A&B",
+			"type": "Bool",
+			"item_type": "",
+			"description": "If A and B are true, this value is true. If either A or B are false, this value is false.",
+			"displayType": "Boolean"
+		}
+	],
+	"js": "CGAnd.js",
+	"lua": "CGAnd.lua",
+	"version": "1.1.0",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGAnd",
+	"category": "Logic",
+	"description": "Check if both inputs are true.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/And"
+}

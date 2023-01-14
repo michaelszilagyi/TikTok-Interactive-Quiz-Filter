@@ -1,0 +1,31 @@
+{
+	"name": "Start",
+	"id": "2f0fed0f-5279-9602-3083-5e1fb8163563",
+	"copyEnable": true,
+	"groupEnable": true,
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGOnStart.js",
+	"lua": "CGOnStart.lua",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGOnStart",
+	"category": "Event",
+	"subCategory": "Lifecycle",
+	"description": "Execute the next node when an effect starts.",
+	"nodeEvent": "onStart",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Start"
+}

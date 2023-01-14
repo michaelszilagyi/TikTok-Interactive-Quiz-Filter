@@ -1,0 +1,37 @@
+{
+	"name": "Do Once",
+	"id": "2f11c27c-3a3a-8958-c9c3-d99791065139",
+	"category": "Control",
+	"description": "Execute this node only once until it is reset. ",
+	"groupTemplate": true,
+	"productTypes": [
+		"TTEH"
+	],
+	"foldable": false,
+	"expandable": false,
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Reset",
+			"type": "Pulse",
+			"description": "Reset this node so that it can be executed again",
+			"displayType": "Exec"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Exit",
+			"type": "Pulse",
+			"description": "Execute the next node",
+			"displayType": "Exec"
+		}
+	],
+	"version": "1.0.1",
+	"subgraphPath": "DoOnce.subgraph",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Control/Do-Once"
+}
